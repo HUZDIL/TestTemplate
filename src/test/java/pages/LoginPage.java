@@ -9,6 +9,9 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class LoginPage extends BasePage{
+    @FindBy (xpath = "")
+    private WebElement loginbutton
+
     @FindBy(xpath = "")
     private WebElement emailBox;
 

@@ -12,7 +12,7 @@ public class LandingPageDefs {
 
     @Given("Customer is logged in")
     public void customer_is_logged_in() {
-
+                login.LoginMethod();
     }
 
     @When("Customer clicks the setting button")
