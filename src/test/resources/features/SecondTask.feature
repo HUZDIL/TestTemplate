@@ -1,5 +1,5 @@
 
-Feature: Edit info
+Feature: Check Project
 
   @secondTask
   Scenario: : Customer has access to change setting into system
@@ -8,6 +8,8 @@ Feature: Edit info
   Then Click to expand the default project.
   Then Click on the Operations tab under this project
     Then Select Result = Pass
+    Then Click to Expand All button
+    Then Verify to Zero Result
 
 
 
