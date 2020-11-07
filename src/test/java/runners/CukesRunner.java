@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                     "html:target/cucumber-report.html",
             },
             features = "src/test/resources/features",
-            glue = "src/test/java/step_definition",
-            dryRun = false,
-            tags = "@firstTask"
+            glue = "src/test/java/stepDefinitions",
+
+            tags = "@secondTask"
 
 
 
