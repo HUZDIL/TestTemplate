@@ -16,8 +16,9 @@ public class LandingPageStepDefs {
 
     @Given("Customer is logged in")
     public void customer_is_logged_in() {
-                login.LoginMethod();
-    }
+
+            login.LoginMethod();
+        }
 
     @When("Customer clicks the setting button")
     public void customer_clicks_the_setting_button() {

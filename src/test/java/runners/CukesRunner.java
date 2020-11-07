@@ -16,7 +16,10 @@ import org.junit.runner.RunWith;
             features = "src/test/resources/features",
             glue = "src/test/java/stepDefinitions",
 
-            tags = "@secondTask"
+            tags ="firstStep",
+
+
+            dryRun=false
 
 
 
