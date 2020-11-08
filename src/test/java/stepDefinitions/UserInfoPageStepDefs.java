@@ -11,7 +11,7 @@ import utilities.Driver;
 public class UserInfoPageStepDefs {
 
       LoginPage login = new LoginPage();
-      UserInfoPage landingPage = new UserInfoPage();
+      UserInfoPage userInfoPage = new UserInfoPage();
 
 
     @Given("Customer is logged in")
@@ -22,13 +22,13 @@ public class UserInfoPageStepDefs {
 
     @When("Customer clicks the setting button")
     public void customer_clicks_the_setting_button() {
-        landingPage.settingModule();
+        userInfoPage.settingModule();
 
     }
 
     @When("Customer clicks the User info tab")
     public void customer_clicks_the_user_info_tab() {
-        landingPage.userInfoModule();
+        userInfoPage.userInfoModule();
     }
 
     @Then("Customer edit info fields to add updated info")
@@ -37,19 +37,19 @@ public class UserInfoPageStepDefs {
         Driver.getDriver().manage().window().maximize();
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollBy(0,250)");
-        landingPage.setFirstName();
-        landingPage.setMiddleName();
-        landingPage.setLastName();
-        landingPage.setUrl();
-        landingPage.setCompany();
-        landingPage.setBio();
-        landingPage.updateInfo();
+        userInfoPage.setFirstName();
+        userInfoPage.setMiddleName();
+        userInfoPage.setLastName();
+        userInfoPage.setUrl();
+        userInfoPage.setCompany();
+        userInfoPage.setBio();
+        userInfoPage.updateInfo();
     }
 
     @Then("Verify to the changes")
     public void verify_to_the_changes() {
 
-        landingPage.verifyClick();
+        userInfoPage.verifyClick();
 
 
     }
