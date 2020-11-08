@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import utilities.Driver;
 
 
-public class LandingPage extends BasePage {
+public class UserInfoPage extends BasePage {
 
     @FindBy(xpath = "/html/body/lhw-root/lhw-layout/mat-sidenav-container/mat-sidenav/div/lhw-sidenav/div/div[2]/div[3]")
     private WebElement settingButton;

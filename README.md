@@ -36,6 +36,10 @@ Feature and Step Definition are the most important part  for BDD framework.
 I stored web elements and methods related to that PAGE into its own JAVA CLASS.
 I used this model because of , RE-USABILITY, EASY TO MAINTAIN, EASY TO MANAGE.
 Page Object Model is not a framework, it is a design pattern.
+
+P.S:There are many hard-coding parts in my solutions because of to save time for this task, 
+but in real life i try to minimaze the hard-coding.
+To minimaze hard-coding and to easy maintaing I use configuration.properties file.
             
                     
                     

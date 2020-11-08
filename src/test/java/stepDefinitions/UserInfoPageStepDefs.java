@@ -4,14 +4,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.JavascriptExecutor;
-import pages.LandingPage;
+import pages.UserInfoPage;
 import pages.LoginPage;
 import utilities.Driver;
 
-public class LandingPageStepDefs {
+public class UserInfoPageStepDefs {
 
       LoginPage login = new LoginPage();
-      LandingPage landingPage = new LandingPage();
+      UserInfoPage landingPage = new UserInfoPage();
 
 
     @Given("Customer is logged in")
