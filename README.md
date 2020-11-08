@@ -26,7 +26,17 @@ Run Steps;
  3.if you remove the tags annotations, it will work orderly.
    
 3.if you got "UndefinedStepException"  exception you have to check it 
-your cucumber java version.              
+your cucumber java version.  
+
+
+My Pattern
+
+I used the page object model to create this project. And I also used Behavior Driven Development method because BDD is end-user’s approach perspective. 
+Feature and Step Definition are the most important part  for BDD framework.
+I stored web elements and methods related to that PAGE into its own JAVA CLASS.
+I used this model because of , RE-USABILITY, EASY TO MAINTAIN, EASY TO MANAGE.
+Page Object Model is not a framework, it is a design pattern.
+            
                     
                     
 
