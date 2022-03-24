@@ -14,7 +14,7 @@ public class Hooks {
 
         System.out.println("###########-THE END-###################");
 
-        Driver.getDriver().quit();
+        Driver.getDriver().close();
 
 
 
